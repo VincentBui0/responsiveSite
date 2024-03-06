@@ -2,168 +2,224 @@
 
 /* ----------------------------------------------{ Desktop View} */
 @media (max-width: 1580px) {
-  body {
-    background-color: green;
-    color: salmon;
+    body {
+      background-color: green;
+      color: salmon;
+    }
+    .hiddenContainer {
+      /* border: solid red; */
+      display: flex;
+      justify-content: space-evenly;
+      width: 40%;
+    }
+    .optionsContainer {
+      /* border:solid navy; */
+      display: flex;
+      justify-content: space-around;
+      width: 40%;
+    }
+    .splash1 {
+      /* border:solid lime; */
+      width: 33%;
+    }
+    .mainTitle {
+      padding: 1em;
+      /* border:solid orange; */
+      display: block;
+      width: 33%;
+    }
+    .splash2 {
+      /* border:solid purple; */
+      display: block;
+      width: 33%;
+    }
+    .infoBox {
+      /* border:solid yellow; */
+      text-align: center;
+      font-family: abril fatface;
+      margin: 1em;
+    }
+    .midContainer {
+      border: solid red;
+      border-width: 0.2px;
+      /* height: 55vh; */
+      padding: 2em;
+      margin: 1em;
+      display: flex;
+    }
+    .secret {
+      border: solid lime;
+      display: block;
+      width: 250px;
+      height: 250px;
+    }
   }
-  .hiddenContainer {
-    /* border: solid red; */
+  
+  /* -----------------------------------------------------[End Of Desktop] */
+  
+  /* ----------------------------------------------{ Mid View - Ipad / Tablet} */
+  @media (max-width: 980px) {
+    body {
+      background-color: blue;
+      color: peru;
+    }
+    .hiddenContainer {
+      /* border: solid red; */
+      display: flex;
+      justify-content: space-evenly;
+      width: 30%;
+    }
+    .optionsContainer {
+      /* border:solid navy; */
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+    }
+    .splash1 {
+      /* border:solid lime; */
+      width: 60%;
+    }
+    .mainTitle {
+      padding: 1em;
+      /* border:solid orange; */
+      display: block;
+      width: 40%;
+    }
+    .splash2 {
+      /* border:solid purple; */
+      display: none;
+    }
+    .infoBox {
+      /* border:solid yellow; */
+      text-align: center;
+      font-family: abril fatface;
+      margin: 1em;
+    }
+    .midContainer {
+      border: solid red;
+      border-width: 0.2px;
+      /* height: 55vh; */
+      padding: 2em;
+      margin: 1em;
+      display: flex;
+    }
+    .secret {
+      border: solid lime;
+      display: none;
+      width: 250px;
+      height: 250px;
+    }
+  }
+  
+  /* -----------------------------------------------------[End Of MidView] */
+  
+  /* ----------------------------------------------{ Mobile View} */
+  @media (max-width: 580px) {
+    body {
+      background-color: black;
+      color: lemonchiffon;
+    }
+    .hiddenContainer {
+      /* border: solid red; */
+      display: none;
+      justify-content: space-evenly;
+      width: auto;
+    }
+    .optionsContainer {
+      /* border:solid navy; */
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+    }
+    .splash1 {
+      /* border:solid lime; */
+      width: 100%;
+    }
+    .mainTitle {
+      padding: 1em;
+      /* border:solid orange; */
+      display: none;
+    }
+    .splash2 {
+      /* border:solid purple; */
+      display: none;
+    }
+    .infoBox {
+      /* border: solid yellow; */
+      text-align: center;
+      font-family: abril fatface;
+      margin: 1em;
+    }
+    .midContainer {
+      border: solid red;
+      border-width: 0.2px;
+      /* height: 55vh; */
+      padding: 2em;
+      margin: 1em;
+      display: block;
+    }
+    .secret {
+      border: solid lime;
+      display: none;
+      width: 250px;
+      height: 250px;
+    }
+  }
+  
+  /* -----------------------------------------------------[End Of Mobile] */
+  
+  /* ----------General CSS*/
+  
+  .navContainer {
+    border: solid white;
+    border-width: 0.2px;
+    /* height:8vh; */
+    margin: 1em;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    width: 40%;
+    align-items: center;
   }
-  .optionsContainer {
-    /* border:solid navy; */
+  
+  .topContainer {
+    border: solid lime;
+    border-width: 0.2px;
+    /* height: 55vh; */
+    margin: 1em;
     display: flex;
-    justify-content: space-around;
-    width: 40%;
   }
-  .splash1{
-    /* border:solid lime; */
-    width:33%
-}
-.mainTitle{
-    padding:1em;
-    /* border:solid orange; */
-    display:block;
-    width:33%
-
-}
-.splash2{
-    /* border:solid purple; */
-    display:block;
-    width:33%
-}
-}
-
-/* -----------------------------------------------------[End Of Desktop] */
-
-/* ----------------------------------------------{ Mid View - Ipad / Tablet} */
-@media (max-width: 980px) {
-  body {
-    background-color: blue;
-    color: peru;
+  
+  .logoContainer {
+    /* border:solid lightblue; */
+    width: 10%;
   }
-  .hiddenContainer {
-    /* border: solid red; */
-    display: flex;
-    justify-content: space-evenly;
-    width: 30%;
+  .logo {
+    height: 30px;
   }
-  .optionsContainer {
-    /* border:solid navy; */
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
+  
+  .iconContainer {
+    /* border:solid turquoise; */
   }
-  .splash1{
-    /* border:solid lime; */
-    width:60%;
-}
-.mainTitle{
-    padding:1em;
-    /* border:solid orange; */
-    display:block;
-    width:40%;
-}
-.splash2{
-    /* border:solid purple; */
-    display:none;
-}
-}
-
-/* -----------------------------------------------------[End Of MidView] */
-
-/* ----------------------------------------------{ Mobile View} */
-@media (max-width: 580px) {
-  body {
-    background-color: black;
-    color: lemonchiffon;
+  
+  .smedia {
+    height: 30px;
+    width: 30px;
   }
-  .hiddenContainer {
-    /* border: solid red; */
-    display: none;
-    justify-content: space-evenly;
-    width: auto;
+  
+  .welcome {
+    text-align: center;
   }
-  .optionsContainer {
-    /* border:solid navy; */
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-  }
-  .splash1{
-    /* border:solid lime; */
-    width:100%
-}
-.mainTitle{
-    padding:1em;
-    /* border:solid orange; */
-    display:none;
-}
-.splash2{
-    /* border:solid purple; */
-    display:none;
-}
-}
-
-/* -----------------------------------------------------[End Of Mobile] */
-
-/* ----------General CSS*/
-
-.navContainer {
-  border: solid white;
-  border-width: 0.2px;
-  /* height:8vh; */
-  margin: 1em;
-  padding: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.topContainer {
-  border: solid lime;
-  border-width: 0.2px;
-  /* height: 55vh; */
-  margin: 1em;
-  display:flex;
-}
-
-.midContainer {
-  border: solid red;
-  border-width: 0.2px;
-  height: 55vh;
-  margin: 1em;
-}
-
-.logoContainer {
-  /* border:solid lightblue; */
-  width: 10%;
-}
-.logo {
-  height: 30px;
-}
-
-.iconContainer {
-  /* border:solid turquoise; */
-}
-
-.smedia {
-  height: 30px;
-  width: 30px;
-}
-
-.welcome{
-    text-align:center;
-}
-.welcomeSm{
+  .welcomeSm {
     text-align: right;
-}
-.welcomeBtn{
-    margin:3em;
-    font-size:15px;
-    border-radius:12px;
-    background-color:black;
+  }
+  .welcomeBtn {
+    margin: 3em;
+    font-size: 15px;
+    border-radius: 12px;
+    background-color: black;
     color: white;
-}
+  }
+  
+  .midPic {
+    width: 100%;
+  }
